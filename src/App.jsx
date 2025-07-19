@@ -10,10 +10,11 @@ import RemoveBackground from './pages/RemoveBackground'
 import RemoveObject from './pages/RemoveObject'
 import ReviewResume from './pages/ReviewResume'
 import Community from './pages/Community'
+
 const App = () => {
   return (
     <div>
-      <Routes>
+          <Routes>
         <Route path='/' element = {<Home/>}/>
         <Route path ='/ai' element = {<Layout/>}>
            <Route index element ={<Dashboard/>}/>
@@ -27,6 +28,7 @@ const App = () => {
 
         </Route>
       </Routes>
+     
     </div>
   )
 }

@@ -6,6 +6,7 @@ import Testimonial from '../components/Testimonial'
 import Plan from '../components/Plan'
 import Footer from '../components/Footer'
 
+
 const Home = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Home = () => {
       <Testimonial/>
       <Plan />
       <Footer />
+     
     </>
   )
 }
