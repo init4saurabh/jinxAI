@@ -26,7 +26,7 @@ const WriteArticle = () => {
 
       {/*right col */}
       <div>
-            .
+            
       </div>
         
     </div>
