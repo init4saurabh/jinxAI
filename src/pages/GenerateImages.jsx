@@ -19,7 +19,9 @@ const GenerateImages = () => {
         <div className='flex items-center gap-3'>
           <h1 className='text-xl font-semibold'>AI Image Generator</h1>
         </div>
+
         <p className='mt-6 text-sm font-medium'>Describe your Image</p>
+        
         <textarea onChange={(e)=>setInput(e.target.value)} value ={input} rows ={4}className='w-full p-2 px-3 mt-2 outline-none text-sm rounded-md border border-gray-300' placeholder='Describe what you want to see in the image...' required />
         <p className='mt-4 text-sm font-medium'>Style</p>
 
